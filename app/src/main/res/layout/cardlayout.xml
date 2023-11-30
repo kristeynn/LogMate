@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#22263E"
+        android:padding="15dp">
+
+
+
+        <TextView
+            android:id="@+id/dateCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Date"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nameCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dateCardView"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/dm_sans_medium"
+            android:text="Name"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/idNumCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameCardView"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/dm_sans_medium"
+            android:text="ID_Num"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/timeInCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idNumCardView"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/dm_sans_medium"
+            android:text="Time_In"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/timeOutCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/timeInCardView"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/dm_sans_medium"
+            android:text="Time_Out"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/timeOutCardView"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/timeoutBtnCV"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="centerInside"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/timeoutcv" />
+
+            <ImageButton
+                android:id="@+id/deleteBtnCV"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="centerInside"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/deletecv" />
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

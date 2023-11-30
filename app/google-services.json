@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "192913202642",
+    "firebase_url": "https://logmatev2-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "logmatev2",
+    "storage_bucket": "logmatev2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192913202642:android:b926acc241b9d5db6dbc0b",
+        "android_client_info": {
+          "package_name": "com.labactivity.logmate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0P4HU3R_yh-WCDSeTp_1qKORImcSacQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
